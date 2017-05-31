@@ -2,17 +2,14 @@ resolver:
   name: default-snapshot
   location: snapshot.yaml
 
-compiler: ghcjs-0.2.1.9008014_ghc-8.0.1
+compiler: ghcjs-0.2.1.9008015_ghc-8.0.2
 compiler-check: match-exact
-
-system-ghc: true
-install-ghc: false
 
 setup-info:
   ghcjs:
     source:
-      ghcjs-0.2.1.9008014_ghc-8.0.1:
-           url: /home/db/Downloads/ghcjs/ghc-8.0-2017-05-17-lts-8.14-9008014-mem.tar.gz
+      ghcjs-0.2.1.9008015_ghc-8.0.2:
+           url: ghc-8.0-2017-05-30-lts-8.15-9008015-mem.tar.gz
 
 ghc-options:
   "*": -dedupe -O0
